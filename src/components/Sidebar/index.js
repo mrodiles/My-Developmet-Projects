@@ -1,7 +1,7 @@
 import React from "react";
 import { SidebarContainer, Icon, CloseIcon } from "./SideBarElements";
 
-const SideBarElements = () => {
+const Sidebar = () => {
   return (
     <SidebarContainer>
       <Icon>
@@ -11,4 +11,4 @@ const SideBarElements = () => {
   );
 };
 
-export default SideBarElements;
+export default Sidebar;
