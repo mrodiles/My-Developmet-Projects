@@ -27,7 +27,7 @@ function HeroSection() {
       </HeroBg>
       <HeroContent>
         <HeroH1>Michael Rodiles </HeroH1>
-        <HeroP>Hello! I am a full-stack junior web developer</HeroP>
+        <HeroP>Hello! I am a full-stack web developer</HeroP>
         <HeroBtnWrapper>
           <Button
             to="contact"
