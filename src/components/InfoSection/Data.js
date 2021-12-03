@@ -45,7 +45,7 @@ export const homeObjThree = {
     "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
   buttonLabel: "Email Me!",
   imgStart: false,
-  img: require("../../images/svg-3.svg"),
+  img: require("../../images/undraw_contact_us_-15-o2.svg"),
   alt: "Papers",
   dark: false,
   primary: false,

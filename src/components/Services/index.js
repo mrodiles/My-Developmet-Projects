@@ -1,7 +1,7 @@
 import React from "react";
-import Icon1 from "../../images/YouCanToucan.png";
-import Icon2 from "../../images/SongBird.png";
-import Icon3 from "../../images/svg-5.svg";
+import Icon1 from "../../images/undraw_gaming_re_cma2.svg";
+import Icon2 from "../../images/undraw_happy_music_g6wc (2).svg";
+import Icon3 from "../../images/undraw_cooking_lyxy.svg";
 import {
   ServicesContainer,
   ServicesH1,
