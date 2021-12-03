@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
+import styled from 'styled-components';
+import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
 
 export const HeroContainer = styled.div`
   background: #0c0c0c;
@@ -12,7 +12,7 @@ export const HeroContainer = styled.div`
   z-index: 1;
 
   :before {
-    content: "";
+    content: '';
     position: absolute;
     top: 0;
     left: 0;

@@ -1,34 +1,14 @@
-import React, { useState } from "react";
-import Navbar from "../components/Navbar";
-import Sidebar from "../components/Sidebar";
-import Footer from "../components/Footer";
-import HeroSection from "../components/HeroSection";
-import InfoSection from "../components/InfoSection";
-import {
-  homeObjOne,
-  homeObjTwo,
-  homeObjThree,
-} from "../components/InfoSection/Data";
-import Services from "../components/Services";
+import React from 'react';
+import SignIn from '../components/SignIn';
+import ScrollToTop from '../components/ScrollToTop';
 
-function Home() {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggle = () => {
-    setIsOpen(!isOpen);
-  };
+function SigninPage() {
   return (
     <>
-      <Sidebar isOpen={isOpen} toggle={toggle} />
-      <Navbar toggle={toggle} />
-      <HeroSection />
-      <InfoSection {...homeObjOne} />
-      <InfoSection {...homeObjTwo} />
-      <Services />
-      <InfoSection {...homeObjThree} />
-      <Footer />
+      <ScrollToTop />
+      <SignIn />
     </>
   );
 }
 
-export default Home;
+export default SigninPage;
