@@ -68,7 +68,7 @@ const Sidebar = ({ isOpen, toggle }) => {
         <SideBtnWrap>
           {" "}
           {/* To be able to center button*/}
-          <SidebarRoute to="/signin">Sign In</SidebarRoute>
+          {/* <SidebarRoute to="/signin">Sign In</SidebarRoute> */}
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
