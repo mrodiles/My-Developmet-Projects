@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "../ButtonElements";
+import { Button } from "../Email";
 import {
   InfoContainer,
   InfoWrapper,
@@ -44,7 +44,7 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    to="home"
+                    href="mailto:michaelrodiles@gmail.com"
                     smooth={true}
                     duration={500}
                     spy={true}

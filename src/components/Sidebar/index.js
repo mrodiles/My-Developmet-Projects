@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   SidebarContainer,
   Icon,
@@ -7,8 +7,8 @@ import {
   SidebarMenu,
   SidebarLink,
   SidebarRoute,
-  SideBtnWrap
-} from './SidebarElements';
+  SideBtnWrap,
+} from "./SidebarElements";
 
 const Sidebar = ({ isOpen, toggle }) => {
   return (
@@ -18,56 +18,57 @@ const Sidebar = ({ isOpen, toggle }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-        {/* These are react scroll links */}
+          {/* These are react scroll links */}
           <SidebarLink
-            to='about'
+            to="about"
             onClick={toggle}
             smooth={true}
             duration={500}
             spy={true}
-            exact='true'
+            exact="true"
             offset={-80}
           >
-
-          {/* These scroll tags  */}
+            {/* These scroll tags  */}
             About
           </SidebarLink>
-          <SidebarLink
-            to='discover'
+          {/* <SidebarLink
+            to="discover"
             onClick={toggle}
             smooth={true}
             duration={500}
             spy={true}
-            exact='true'
+            exact="true"
             offset={-80}
           >
-            Discover 
+            Discover
+          </SidebarLink> */}
+          <SidebarLink
+            to="portfolio"
+            onClick={toggle}
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >
+            Portfolio
           </SidebarLink>
           <SidebarLink
-            to='services'
+            to="contact"
             onClick={toggle}
             smooth={true}
             duration={500}
             spy={true}
-            exact='true'
+            exact="true"
             offset={-80}
           >
-            Services
-          </SidebarLink>
-          <SidebarLink
-            to='signup'
-            onClick={toggle}
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact='true'
-            offset={-80}
-          >
-            Sign Up
+            Contact
           </SidebarLink>
         </SidebarMenu>
-        <SideBtnWrap> {/* To be able to center button*/}
-          <SidebarRoute to='/signin'>Sign In</SidebarRoute>
+        <SideBtnWrap>
+          {" "}
+          {/* To be able to center button*/}
+          <SidebarRoute to="/signin">Sign In</SidebarRoute>
         </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>

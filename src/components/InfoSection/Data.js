@@ -41,8 +41,7 @@ export const homeObjThree = {
   lightTextDesc: false,
   topLine: "Lets work together",
   headline: "Getting in contact is extremely easy",
-  description:
-    "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
+  description: "Looking forward to connecting with you.",
   buttonLabel: "Email Me!",
   imgStart: false,
   img: require("../../images/undraw_contact_us_-15-o2.svg"),
