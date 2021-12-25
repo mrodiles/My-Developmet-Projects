@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const ServicesContainer = styled.div`
   height: 800px;
@@ -71,9 +71,11 @@ export const ServicesH1 = styled.h1`
   }
 `;
 
-export const ServicesH2 = styled.h2`
+export const ServicesH2 = styled.a`
   font-size: 1rem;
+  font-weight: bold;
   margin-bottom: 10px;
+  color: green;
 `;
 
 export const ServicesP = styled.p`
